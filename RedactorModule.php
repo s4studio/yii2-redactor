@@ -21,8 +21,8 @@ class RedactorModule extends \yii\base\Module
 {
     public $controllerNamespace = 's4studio\redactor\controllers';
     public $defaultRoute = 'upload';
-    public $uploadDir = '@webroot/uploads';
-    public $uploadUrl = '@web/uploads';
+    public $uploadDir = '@frontend/web/files/redactor';
+    public $uploadUrl = '/files/uploads';
     public $imageUploadRoute = ['/redactor/upload/image'];
     public $fileUploadRoute = ['/redactor/upload/file'];
     public $imageManagerJsonRoute = ['/redactor/upload/image-json'];

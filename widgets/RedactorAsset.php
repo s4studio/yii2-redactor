@@ -15,6 +15,7 @@ namespace s4studio\redactor\widgets;
 class RedactorAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@vendor/s4studio/yii2-redactor/assets';
+    public $baseUrl = '@web/vendor/s4studio/yii2-redactor/widgets';
     public $depends = ['yii\web\JqueryAsset'];
 
     public function init()

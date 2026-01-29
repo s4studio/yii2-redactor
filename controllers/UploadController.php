@@ -6,13 +6,15 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\redactor\controllers;
+namespace s4studio\redactor\controllers;
 
 use yii\web\Response;
 
 /**
  * @author Nghia Nguyen <yiidevelop@hotmail.com>
  * @since 2.0
+ * @author Edmund Kawalec <e.kawalec@hotmail.com>
+ * @since 2.1
  */
 class UploadController extends \yii\web\Controller
 {
@@ -34,10 +36,10 @@ class UploadController extends \yii\web\Controller
     public function actions()
     {
         return [
-            'file' => 'yii\redactor\actions\FileUploadAction',
-            'image' => 'yii\redactor\actions\ImageUploadAction',
-            'image-json' => 'yii\redactor\actions\ImageManagerJsonAction',
-            'file-json' => 'yii\redactor\actions\FileManagerJsonAction',
+            'file' => 's4studio\redactor\actions\FileUploadAction',
+            'image' => 's4studio\redactor\actions\ImageUploadAction',
+            'image-json' => 's4studio\redactor\actions\ImageManagerJsonAction',
+            'file-json' => 's4studio\redactor\actions\FileManagerJsonAction',
         ];
     }
 

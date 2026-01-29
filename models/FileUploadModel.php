@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\redactor\models;
+namespace s4studio\redactor\models;
 
 use Yii;
 use yii\web\UploadedFile;
@@ -15,6 +15,8 @@ use yii\helpers\Inflector;
 /**
  * @author Nghia Nguyen <yiidevelop@hotmail.com>
  * @since 2.0
+ * @author Edmund Kawalec <e.kawalec@hotmail.com>
+ * @since 2.1
  */
 class FileUploadModel extends \yii\base\Model
 {

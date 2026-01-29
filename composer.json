@@ -1,5 +1,5 @@
 {
-  "name": "yiidoc/yii2-redactor",
+  "name": "s4studio/yii2-redactor",
   "description": "Extension redactor for Yii2 Framework.",
   "keywords": [
     "yii2",
@@ -12,23 +12,26 @@
   "type": "yii2-extension",
   "license": "BSD-3-Clause",
   "support": {
-    "issues": "https://github.com/yiidoc/yii2-redactor/issues?state=open",
-    "wiki": "http://www.yiidoc.com/wiki/",
-    "source": "https://github.com/yiidoc/yii2-redactor"
+    "issues": "https://github.com/s4studio/yii2-redactor/issues?state=open",
+    "source": "https://github.com/s4studio/yii2-redactor"
   },
   "authors": [
     {
       "name": "Nghia Nguyen",
       "email": "zinzinday@gmail.com"
+    },
+    {
+      "name": "Edmund Kawalec",
+      "email": "e.kawalec@gmail.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "yii\\redactor\\": "/"
+      "s4studio\\redactor\\": "/"
     }
   },
   "minimum-stability": "dev",
   "require": {
-    "yiisoft/yii2": "*"
+    "yiisoft/yii2": "^2.0.45"
   }
 }

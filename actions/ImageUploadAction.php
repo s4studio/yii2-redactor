@@ -6,14 +6,16 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\redactor\actions;
+namespace s4studio\redactor\actions;
 
 use Yii;
-use yii\redactor\models\ImageUploadModel;
+use s4studio\redactor\models\ImageUploadModel;
 
 /**
  * @author Nghia Nguyen <yiidevelop@hotmail.com>
  * @since 2.0
+ * @author Edmund Kawalec <e.kawalec@hotmail.com>
+ * @since 2.1
  */
 class ImageUploadAction extends \yii\base\Action
 {

@@ -6,7 +6,7 @@
  * Time: 12:42 AM
  */
 
-namespace yii\redactor\actions;
+namespace s4studio\redactor\actions;
 
 
 use yii\base\Action;

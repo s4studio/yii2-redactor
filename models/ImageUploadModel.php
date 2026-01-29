@@ -6,13 +6,15 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\redactor\models;
+namespace s4studio\redactor\models;
 
 use Yii;
 
 /**
  * @author Nghia Nguyen <yiidevelop@hotmail.com>
  * @since 2.0
+ * @author Edmund Kawalec <e.kawalec@hotmail.com>
+ * @since 2.1
  */
 class ImageUploadModel extends FileUploadModel
 {

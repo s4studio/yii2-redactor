@@ -19,7 +19,7 @@ use yii\helpers\Url;
  */
 class RedactorModule extends \yii\base\Module
 {
-    public $controllerNamespace = 'yii\redactor\controllers';
+    public $controllerNamespace = 's4studio\redactor\controllers';
     public $defaultRoute = 'upload';
     public $uploadDir = '@webroot/uploads';
     public $uploadUrl = '@web/uploads';
@@ -45,13 +45,13 @@ class RedactorModule extends \yii\base\Module
      */
     public function getSaveDir()
     {
-        $path = Yii::getAlias($this->uploadDir) . DIRECTORY_SEPARATOR . $this->getOwnerPath();    
-        if(!file_exists($path)){      
-            if (!FileHelper::createDirectory($path, 0775,$recursive = true )) {
-                throw new InvalidConfigException('$uploadDir does not exist and default path creation failed');
-            }
+        $path = Yii::getAlias($this->uploadDir);
+        if (!file_exists($path)) {
+            throw new InvalidConfigException('Invalid config $uploadDir');
         }
-        return $path;
+        if (FileHelper::createDirectory($path . DIRECTORY_SEPARATOR . $this->getOwnerPath(), 0777)) {
+            return $path . DIRECTORY_SEPARATOR . $this->getOwnerPath();
+        }
     }
 
     /**

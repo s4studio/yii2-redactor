@@ -1,14 +1,16 @@
 <?php
 
-namespace yii\redactor\actions;
+namespace s4studio\redactor\actions;
 
 use Yii;
 use yii\base\Action;
-use yii\redactor\models\FileUploadModel;
+use s4studio\redactor\models\FileUploadModel;
 
 /**
  * @author Nghia Nguyen <yiidevelop@hotmail.com>
  * @since 2.0
+ * @author Edmund Kawalec <e.kawalec@hotmail.com>
+ * @since 2.1
  */
 class FileUploadAction extends Action
 {

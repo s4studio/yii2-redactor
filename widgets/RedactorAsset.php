@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\redactor\widgets;
+namespace s4studio\redactor\widgets;
 
 /**
  * @author Nghia Nguyen <yiidevelop@hotmail.com>
@@ -14,7 +14,7 @@ namespace yii\redactor\widgets;
  */
 class RedactorAsset extends \yii\web\AssetBundle
 {
-    public $sourcePath = '@vendor/yiidoc/yii2-redactor/assets';
+    public $sourcePath = '@vendor/s4studio/yii2-redactor/assets';
     public $depends = ['yii\web\JqueryAsset'];
 
     public function init()

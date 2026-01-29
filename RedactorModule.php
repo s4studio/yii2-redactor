@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\redactor;
+namespace s4studio\redactor;
 
 use Yii;
 use yii\base\InvalidConfigException;
